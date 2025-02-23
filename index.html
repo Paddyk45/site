@@ -26,7 +26,7 @@ html {
 
 body {
 	font-family: "Atkinson Hyperlegible";
-	background: #000 url("/wall.webp"); /* lossless wallpaper is @ /wall.png */
+	background: #000 url("/wall.webp");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: right bottom;
@@ -43,6 +43,13 @@ body {
 header {
 	background: none;
 	backdrop-filter: blur(14px) brightness(0.4);
+}
+
+.bottomright {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin-bottom: 0;
 }
 	</style>
 </head>
@@ -101,5 +108,6 @@ header {
 	</footer>
 	<footer style="text-align: center">made with <a href="https://newcss.net/">new.css</a></footer>
 </div>
+<a class="bottomright" href="/wall.png">lossless wallpaper</a>
 </body>
 </html>
